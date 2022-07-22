@@ -1,7 +1,7 @@
 # fb-backend
 fraxbook backend
 
-Status  that uses CRUD to create, login users, delete and update blog posts. 
+full CRUD to create, login users, delete and update status/posts. 
 
 ## Installation
 
