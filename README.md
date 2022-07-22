@@ -82,14 +82,14 @@ app.use('/users', usersRouter)
 app.use('/auth', authRouter)
 ```
 
-auth Router
+### auth Router
 ```bash
 Auth ('/auth') creates Users and Login 
  - router.post('/') : Checks users email and password with '.isEmail' & '.notEmpty.' It also creates a TOKEN for user profile.
 ```
 
 
-blog Router
+### blog Router
 ```bash
 router.get('/') - finds all blogs
 
