@@ -3,7 +3,7 @@ fraxbook backend
 
 full CRUD to create, login users, delete and update status/posts. 
 
-## Installation
+### Installation
 
 Make a new folder on terminal 
 
@@ -55,7 +55,7 @@ MONGO_DB
 MY_SECRET_KEY
 ```
 
-## Running Locally 
+### Running Locally 
 Check to see if you are in the /BlogAPI folder within the terminal.
 ```bash
 pwd 
@@ -70,7 +70,7 @@ If you do not have nodemon installed run this on the terminal
 ```bash
 npm i nodemon 
 ```
-## Routes 
+### Routes 
 ```bash
     Endpoints, Parameters, Schema
 ```
@@ -107,7 +107,7 @@ user Router
 router.post('/') - validates username, email, password with express validator. and use SALT and bcrypt to get a hashedpassword. With this, a payload exists and creates a TOKEN.
 ```
 
-## Schemas
+### Schemas
 user
 ```bash
  `username: {
@@ -141,7 +141,7 @@ user
     }`
 ```
 
-blog
+### blog
 ```bash
  `private: {
         type: Boolean,
